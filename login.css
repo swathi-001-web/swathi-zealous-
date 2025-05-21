@@ -1,0 +1,35 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width:100%;
+    background-color: grey;
+    font-size:3rem;
+}
+
+
+.box{
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    height:1200px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 30px;
+    
+}
+
+button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: grey;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+

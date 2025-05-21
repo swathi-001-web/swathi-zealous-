@@ -1,0 +1,110 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+main{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+section{
+     background-image: url("zeaa.jpg");
+     background-size:cover;
+     height:100%;
+     width:100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     color: white;
+     flex-wrap: wrap;
+     gap:5px;
+}
+
+.theboys{
+    padding:20px;
+     display: grid;
+   
+  
+
+}
+.theboys .boys{
+   
+    gap:20px;
+    padding:20px;
+    margin:10px;
+     display: grid;
+     grid-template-columns: repeat(     ,1fr);
+    
+    
+}
+
+.theboys img{
+    height:200px;
+    width: 200px;
+    border:10px solid lightgray;
+    border-radius:10px;
+}
+
+.wow h3{
+     text-decoration: line-through;
+    font-size: 10px;
+    color: aqua;
+}
+
+
+ .boys p{
+     font-size:20px;
+     font-color: lightgrey;
+     font-weight: bold;
+ }
+
+ .boys h3{
+     font-size: 20px;
+     font-color: lightgrey;
+     font-weight: bold;
+ }
+
+ .boys button{
+     color: black;
+     background-color: white;
+     border: 10px grey;
+     size: 30px;
+     border-radius: 10px;
+ }
+
+.boys li{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer{
+    background-color: black;
+    color:whitesmoke;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ 
+
